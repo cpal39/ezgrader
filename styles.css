@@ -1,0 +1,15 @@
+#main{
+	text-align: center;
+	padding: 10px;
+	font-size: 16pt;
+}
+#submitButton{
+	margin: 10px;
+}
+#results .row{
+	color: white;
+	padding: 10px;
+}
+#resultsRow{
+	font-weight: bold;
+}

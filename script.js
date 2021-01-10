@@ -11,8 +11,6 @@ $(document).ready(function () {
 		);
 		for (let i = 0; i <= numQ; i++) {
 			let numRight = numQ - i;
-			console.log(numRight);
-			console.log(numRight / numQ);
 			let percent = Math.round(numRight / numQ * 100);
 			if (i % 2 == 0) {
 				$("#results").append(

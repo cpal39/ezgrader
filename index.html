@@ -1,39 +1,23 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>EZgrader</title>
-	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-
-<body>
-	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary shadow p-3">
-		<a id="navLink" class="navbar-brand" href="#">EZgrader</a>
-	</nav>
-	<div id="main">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<form>
-						<label for="numQ">Number of questions:</label><br>
-						<input type="number" name="numQ" required /><br>
-						<button id="submitButton" class="btn btn-primary">Submit</button>
-					</form>
-				</div>
-			</div>
-			<div id="results">
-			</div>
-		</div>
-	</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
-	<script src="script.js"></script>
-</body>
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EZgrader</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <a id="navLink" href="#">EZgrader</a>
+    </nav>
+    <div id="main">
+      <form>
+        <label for="numQ">Number of questions:</label><br />
+        <input id="numQInput" type="number" name="numQ" required /><br />
+      </form>
+      <div id="results"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
